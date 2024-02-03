@@ -1,0 +1,30 @@
+.wrapper {
+  height: 66px;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 3;
+  padding: 16px 24px;
+}
+.btnGrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 24px;
+  background: linear-gradient(to right, #f32170, #cf23cf);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

@@ -1,0 +1,96 @@
+.tableWrap {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: white;
+  width: 100%;
+  border: 1px solid #e3e4e8;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.video {
+  background-color: #e3e4e8;
+  border-radius: 12px;
+  padding: 4px 12px;
+  gap: px;
+}
+
+.profilePicture {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePicture img {
+  border-radius: 12px;
+}
+
+.showPostRoot {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+}
+
+.postImg {
+  background: #000;
+  margin: auto;
+}
+
+.postImg img {
+  object-fit: contain;
+}
+
+.postContent {
+  padding: 24px;
+}
+
+.postHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postStats {
+  border: 1px solid #e5e5e5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 8px;
+  margin: 24px 0px 24px 0px;
+  padding: 24px;
+}
+
+.allPostHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.allPostGallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.allPostCard {
+  position: relative;
+}
+
+.allPostCard img {
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.imgContent {
+  position: absolute;
+  top: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 12px;
+}
+
+.cardPostStats {
+  display: flex;
+  gap: 6px;
+}

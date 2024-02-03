@@ -1,0 +1,46 @@
+.auth {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.authWrapper {
+  max-height: 600px;
+  width: 100vw;
+  background-color: #fff;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.formWrapper {
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.radio {
+  display: flex;
+  gap: 4px;
+  padding: 14px 24px;
+  border: 1px solid #e3e4e8;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.alreadyMember {
+  color: #767b8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.alreadyMember span {
+  color: #3354ff;
+  font-weight: 500;
+}
